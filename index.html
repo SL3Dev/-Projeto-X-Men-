@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="response.css">
+    <script src="index.js"></script>
+    <title>Projeto X-men - Em busca de um sonho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans+JP:wght@100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo"  src="./imagens/logo.svg" alt="Logo x-men" srcset="">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="title"> Character Selection</h1>
+            <!--dentro da ul só pode utilizar a tag li-->
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="cyclop" data-name="Cyclop"data-description="Ciclope é um mutante, possuindo o poder de projetar pura energia de seus olhos de cor vermelho-rubi. Antigamente se pensava que as suas rajadas não emitiam calor, mas fato já foi esclarecido, já que suas rajadas energéticas são abastecidas por energia solar e acabam retendo um pouco de seu calor.">
+                    <img src="/src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey"data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz.">
+                    <img src="/src/imagens/card-jean-grey.jpg" alt="Personagem Jean">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"data-description="Kitty Pryde, ou Lince Negra (em inglês, Shadowcat) é uma personagem fictícia das histórias em quadrinhos do Universo Marvel, publicadas pela Marvel Comics. Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar. Seu grande amor é Colossus. Seu nome verdadeiro é Katherine Anne Pryde, embora seja chamada mais frequentemente de Kitty. Sua primera aparição foi em Uncanny X-Men #129 (janeiro de 1980).">
+                    <img src="/src/imagens/card-lince-negra.jpg" alt="Personagem Lince">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"data-description="Ele tem o controle do magnetismo, do metal, e vários campos magnéticos, com isso ele cria campos de força eletromagnéticos, pode literalmente desligar a gravidade em volta de si isso lhe permite voar a distâncias e velocidades razoáveis.">
+                    <img src="/src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"data-description="Ele realizou um grande feito, mas teve que pagar um preço alto por isso! Entre os inúmeros mutantes da Marvel, Noturno não costuma ser considerado um dos mais poderosos. Capaz de se teleportar, embora seu poder seja útil, seus usos são limitados, e não tem o mesmo impacto que outros mutantes tem em batalha.">
+                    <img src="/src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"data-description="Criada como parte da segunda formação dos X-Men, a Tempestade é uma das mutantes mais queridas e amadas pelo público desde sempre. Capaz de manipular o clima, ela já foi líder de diversas equipes dos Filhos do Átomo, além de peitar vilões extremamente poderosos.">
+                    <img src="/src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"data-description="O poder primário da Vampira é a absorção de poderes sempre que ela toca na pele de algum indivíduo com superpoderes. Geralmente, esse dom é usado em outros mutantes, mas ela não "copia" apenas poderes derivados do Gene X, como também outros seres que tiveram seu DNA modificado por interferências externas.">
+                    <img src="/src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"data-description="Wolverine é dotado de poderes mutantes extraordinários. Seu principal atributo é o fator de cura acelerado, que lhe permite se recuperar rapidamente de ferimentos graves e regenerar tecidos danificados. Essa habilidade faz com que ele seja quase imortal e o torna capaz de sobreviver a ataques fatais.">
+                    <img src="/src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado"> 
+            <img class="personagem-grande" src="./imagens/card-ciclope.png" alt="Personagem-selecionado">
+            
+            <div class="information-persona">
+                <h2 class="nick-persona" id="nick-persona">Cyclop</h2>
+                <p class="description-persona" id="description-persona">
+                    Ciclope é um mutante, possuindo o poder de projetar pura energia de seus olhos de cor vermelho-rubi. Antigamente se pensava que as suas rajadas não emitiam calor, mas fato já foi esclarecido, já que suas rajadas energéticas são abastecidas por energia solar e acabam retendo um pouco de seu calor.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
