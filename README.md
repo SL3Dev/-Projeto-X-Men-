@@ -1,1 +1,2 @@
-https://i.imgur.com/FdSSXu1.png
+Para visualizar as imagens do projeto me siga no linkedin:
+https://www.linkedin.com/in/itssamueleal/
